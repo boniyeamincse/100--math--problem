@@ -27,4 +27,9 @@
 # print(f"Sum :{sum_number}") 
 
 
-#using 
+#using  Lambda 
+from functools import reduce
+sum_result = reduce(lambda x, y: x + y, range(1, 101))
+print("Sum:", sum_result)
+
+##
